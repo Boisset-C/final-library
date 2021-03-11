@@ -1,26 +1,55 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<body>
+  <div class="sidebar"> 
+    <the-sidebar></the-sidebar>
+  </div>
+    <div class="content">
+  <router-view></router-view>
+    </div>
+</body>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheSidebar from './components/Layout/TheSidebar.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    TheSidebar,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+
+  grid-template-areas: 
+  "sidebar content"
+  "sidebar content"
+  "sidebar content"
+  "sidebar content"
+  "sidebar content"
+  "sidebar content"
+}
+.sidebar {
+ display: grid;
+ grid-area: sidebar;
+ 
+}
+.content {
+  grid-area: content;
+  width: 80vw;
 }
 </style>
