@@ -26,7 +26,7 @@ section {
   display: flex;
   flex-direction: column;
   grid-template-columns: 1fr;
-
+  margin: 2vw 0vw 0vw 8vw;
 
   background-color: white;
 }
@@ -34,8 +34,6 @@ h2 {
   display: inline-flex;
   font-size: 2rem;
   height: 2rem;
-}
-p {
 }
 .code { 
   display: flex;
@@ -45,6 +43,7 @@ p {
 
 }
 pre {
+  width: 35rem;
   border-radius: 5px;
   color: white;
 

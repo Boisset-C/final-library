@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import ContentStacks from '../../components/ALGORITHMS/ContentStacks.vue';
+import ContentStacks from '../../components/data/ContentStacks.vue';
 
 export default {
   components: {

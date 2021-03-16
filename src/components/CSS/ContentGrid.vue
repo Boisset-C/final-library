@@ -26,24 +26,23 @@ section {
   display: flex;
   flex-direction: column;
   grid-template-columns: 1fr;
-
-
   background-color: white;
+  margin: 0vh 8vw 8vh 8vw;
 }
 h2 {
   display: inline-flex;
   font-size: 2rem;
 }
-p {
-}
+
 .code { 
   display: flex;
   flex-direction: column;
   font-family: 'Courier New', Courier, monospace;
-  height: 20vh;
 
 }
 pre {
+  justify-self: left;
+  font-family: 'Courier New', Courier, monospace;
   border-radius: 5px;
   color: white;
 

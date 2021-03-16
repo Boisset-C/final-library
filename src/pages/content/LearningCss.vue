@@ -21,9 +21,11 @@ components: {
 }
 </script>
 
+
 <style scoped>
 h2 {
-  justify-content: center;
+  color: gray;
+  margin: 2vw 0vw 0vw 8vw;
   font-size: 1rem;
 }
 p {

@@ -25,7 +25,6 @@ export default {
 section {
   display: grid;
   background-color: white;
-  margin: 1rem 1rem 1rem 1rem;
 }
 h2 {
   display: flex;
@@ -37,11 +36,11 @@ p {
 }
 .code {
   display: flex;
-  justify-self: flex-start;
+  justify-self: left;
   font-family: 'Courier New', Courier, monospace;
 }
 pre {
-  width: 25rem;
+  width: 35rem;
   border-radius: 5px;
   color: white;
 

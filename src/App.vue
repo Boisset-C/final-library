@@ -10,15 +10,14 @@
 </template>
 
 <script>
-import TheSidebar from './components/Layout/TheSidebar.vue';
-
+import TheSidebar from './components/layout/TheSidebar.vue';
+ 
 export default {
   components: {
     TheSidebar,
   }
 }
 </script>
-
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -50,6 +49,6 @@ body {
 }
 .content {
   grid-area: content;
-  width: 80vw;
+  width: 85vw;
 }
 </style>
